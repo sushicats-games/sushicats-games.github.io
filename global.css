@@ -1,0 +1,69 @@
+html {
+    font-family: sans-serif;
+    background: #213;
+    color:#fae0fc;
+    font-size: 40px;
+    line-height: 1.4;
+}
+@media (max-width:1400px){ html { font-size: 34px } }
+@media (max-width:1200px){ html { font-size: 28px } }
+@media (max-width:600px){ html { font-size: 22px } }
+@media (max-width:400px){ html { font-size: 14px } }
+a{
+    color:#97f;
+}
+h1{font-size: 2rem; font-weight: lighter;}
+h2{font-size: 1.5rem; font-weight: lighter;}
+
+.layout-section{
+    max-width: 20rem;
+    text-align: left;
+}
+.layout-center{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.layout-top-left{
+    display: flex;
+    flex-flow: row;
+    align-items: flex-start;
+    justify-content: left;
+}
+.layout-bottom-left{
+    display: flex;
+    flex-flow: row;
+    align-items: flex-end;
+    justify-content: left;
+}
+
+.fullscreen{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.invisible{
+    opacity: .0;
+}
+.pad1{
+    padding:1rem;
+}
+.max-parent-width{
+    max-width: 100%;
+}
+.text-shadow{
+    text-shadow: .1em .1em .1em rgba(0,0,0,.5);
+}
+
+@media (max-width:600px){ 
+    .layout-md-center-2col{
+        display: column;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+}
